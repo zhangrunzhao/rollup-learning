@@ -1,0 +1,1 @@
+export default '朝夕光年';

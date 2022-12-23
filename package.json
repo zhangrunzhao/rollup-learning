@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "rollup": "^3.8.1"
+  },
+  "name": "rollup-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
