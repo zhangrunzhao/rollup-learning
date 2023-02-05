@@ -1,13 +1,17 @@
 {
-  "dependencies": {
-    "rollup": "^3.8.1"
-  },
   "name": "rollup-learning",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "devDependencies": {
+    "rollup": "^3.9.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "typescript": "^4.9.4",
+    "tslib": "^2.4.1"
+
   },
   "keywords": [],
   "author": "",
