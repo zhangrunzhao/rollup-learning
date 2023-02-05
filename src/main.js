@@ -1,6 +1,9 @@
-import foo from './foo.js';
-export default function () {
-  console.log('rollup 源码解读');
+import { age } from './age.js';
+export const name = '润钊'
+
+if (true) {
+  const address = '深圳';
+  console.log(name + '在' + address);
 }
 
-console.log(foo)
+console.log(name + age + '岁');
